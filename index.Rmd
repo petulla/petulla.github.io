@@ -1,0 +1,16 @@
+---
+title: "index"
+output: html_document
+---
+
+```{r}
+  library(blogdown)
+  install_hugo()
+```
+
+```{r}
+  new_site(dir = 'me', 
+         theme = 'kakawait/hugo-tranquilpeak-theme',
+         format = 'toml')
+```
+
