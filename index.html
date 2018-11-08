@@ -1,193 +1,202 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="canonical" href="https://www.sampetulla.com">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
-<title>Sam Petulla</title>
-<style>
-	body {
-		font-family: "Noto Sans";
-		font-size: 1em;
-		margin: 0;
-		padding: 0;
-  	position: relative;
-	}
-	a {
-		color: #000;
-		cursor: pointer;
-		text-decoration: none;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-	main {
-		width: 96%;
-		margin-left: 2%;
-	}
-	header {
-		width: 100%;
-		max-width: 414px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	header > h4 {
-		margin-top: 0;
-	}
-	section {
-		display: block;
-		width: 100%;
-		max-width: 414px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	h1 {
-		font-size: 2em;
-		margin-bottom: 0em;
-	}
-	h2 {
-		margin-top: 2.4em;
-	}
-	h5 {
-		color: steelblue;
-		font-size: 0.8em;
-		margin-bottom: 0.2em;
-		margin-top:0
-	}
-	h5 > a {
-		color: steelblue;
-	}
-	p {
-		font-family: "Noto Serif", serif;
-		font-size: 0.7em;
-		line-height: 1.5em;
-		margin-bottom: 1.75em;
-		margin-top: 0.25em;
-	}
-	p > a {
-		text-decoration: underline;
-	}
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="canonical" href="https://www.sampetulla.com">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+		<title>title</title>
+		<style>
+			@import 'layout.css';
+			@import 'headings.css';
+			@import 'text.css';
+			body {
+				font-family: "Noto Sans";
+				font-size: 1em;
+				margin: 0;
+				padding: 0;
+		  	position: relative;
+			}
+			a {
+				color: #262626;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
 
-</style>
+		</style>
+	</head>
+		<header>
+			<div class="sampetulla">
+				<h1>Sam Petulla</h1>
+			</div>
+			<div class="job-title">
+				<h2>Editor, CNN Politics</h2>
+			</div>
+			<nav>
+					<div><a href="#Graphics">Graphics</a></div>
+					<div><a href="#Writing">Writing</a></div>
+					<div><a href="#Etc">Etc</a></div>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<p>👋 I am a reporter who uses data analysis and graphics to find and tell stories. In my spare time, I like to study stats, programming methods and bake pies. I try to keep a running series of experiments on <a href="https://beta.observablehq.com/@petulla">Observable</a>.</p>
+			</article>
+			<section id="Graphics">
+				<h2>Graphics stories</h2>
+					<h3 class="graphics-title">
+						<a href="https://www.cnn.com/election/2018/forecast">CNN 2018 Forecast</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.cnn.com/election/2018/forecast"><img src="img/cnnforecast.png" /></a>
+					</figure>
+					<!--<summary>Oversaw the project pitch, freelancer hiring, model building and design and development.</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://www.cnn.com/interactive/2018/politics/special-elections/">The One Data Point That Predicts the Midterms</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.cnn.com/interactive/2018/politics/special-elections/"><img src="img/specialelections.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://http://www.cnn.com/2017/11/10/politics/house-retirement-tracker/index.html">CNN Retirements Tracker</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://http://www.cnn.com/2017/11/10/politics/house-retirement-tracker/index.html"><img src="img/retirements.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://www.cnn.com/2018/02/21/politics/see-what-your-members-of-congress-have-done-about-gun-control/index.html">See What Your Members of Congress Have Done About Gun Control</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.cnn.com/2018/02/21/politics/see-what-your-members-of-congress-have-done-about-gun-control/index.html"><img src="img/gunlookup.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://www.cnn.com/2017/10/27/politics/trump-says-well-see-were-looking-into/index.html">The Art of the Trumpian Non-Answer</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.cnn.com/2017/10/27/politics/trump-says-well-see-were-looking-into/index.html"><img src="img/nonanswer.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://www.nbcnews.com/specials/election-voting-ballot">Life of a Ballot</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.nbcnews.com/specials/election-voting-ballot"><img src="img/loab.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="http://www.msnbc.com/interactives/geography-of-poverty/index.html">Geography of Poverty (Introduction)</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="http://www.msnbc.com/interactives/geography-of-poverty/index.html"><img src="img/geopovertyintro.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="http://www.msnbc.com/interactives/geography-of-poverty/se.html">Geography of Poverty (South)</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="http://www.msnbc.com/interactives/geography-of-poverty/se.html"><img src="img/geopovertyse.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://www.nbcnews.com/specials/democrats-left-in-the-lurch">Left in a Lurch</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.nbcnews.com/specials/democrats-left-in-the-lurch"><img src="img/leftlurch.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+					<h3 class="graphics-title">
+						<a href="https://www.nbcnews.com/specials/donald-trump-republican-party">United States of Trump</a>
+					</h3>
+					<figure class="graphics-img">
+							<a href="https://www.nbcnews.com/specials/donald-trump-republican-party"><img src="img/ustrump.png" /></a>
+					</figure>
+					<!--<summary>summary</summary>-->
+			</section>
 
-<main>
+			<section id="Writing">
+				<h2>Articles</h2>
+					<summary class="title-and-link">
+						<a href="https://qz.com/62502/burmese-startups-have-both-foreign-competitors-and-local-cronies-to-contend-with/">Burmese startups have both foreign competitors and local cronies to tend with</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="https://qz.com/45086/myanmar-hosts-one-of-the-worlds-biggest-tech-conferences-but-just-trying-getting-an-app-there/">Myanmar hosts one of the world’s biggest tech conferences, but just trying getting an app there</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="https://qz.com/48250/creating-online-banking-in-myanmar-a-country-with-little-of-either/">Creating online banking in Myanmar, a country with little of either</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="https://qz.com/98548/all-the-headaches-facing-the-two-lucky-winners-of-myanmars-mobile-licenses/">All the headaches facing the two lucky winners of Myanmar’s mobile licenses</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="http://techpresident.com/news/wegov/23538/south-korean-digital-activists-work-google-toward-digital-freedom">In South Korea, Activists Say Transparency Must Catch Up to Technology</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="https://www.cnn.com/2017/11/18/politics/puerto-rico-political-disaster-crisis-demographics-migration/index.html">How the Puerto Rico migration could shape Florida politics for years to come</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href=""></a>
+					</summary>
+					<summary class="title-and-link">
+						<a href=""></a>
+					</summary>
+					<summary class="title-and-link">
+						<a href=""></a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="http://archives.cjr.org/author/sam-petulla/">Media reporting for CJR</a>
+					</summary>
+					<summary class="title-and-link">
+						<a href="http://www.niemanlab.org/author/spetulla/">Media reporting for Nieman Lab</a>
+					</summary>
+			</section>
 
-	<header><h1>Sam Petulla</h1><h4>Editor, CNN Politics</h4></header>
-
-	<section>
-		<h2>A few favorites</h2>
-		<h5><a href="https://www.cnn.com/2018/02/21/politics/see-what-your-members-of-congress-have-done-about-gun-control/index.html">See what your congress members have done about gun control</a></h5>
-		<p>Location-based look-up to output a gun control report card</p>
-		<h5><a href="https://www.cnn.com/interactive/2018/politics/special-elections/">How the special elections predict the midterm elections</a></h5>
-		<p>Collaborated with Harry Enten to produce this analysis of every special election</p>
-		<h5><a href="www.cnn.com/2017/12/13/politics/calculate-americans-taxes-senate-reform-bill/index.html">How the tax bill affects your paycheck</a></h5>
-		<p>Collaborated with a think tank to build this tax calculator, writing a lot of R to parse output from open-source tax modeling software. Note: I pitched the story and ran the model but did not design the calculator.</p>
-		<h5><a href="http://www.cnn.com/2017/11/10/politics/house-retirement-tracker/index.html">A wave of Republicans is leaving congress</a></h5>
-		<p>Retirement tracker</p>
-		<h5><a href="https://github.com/mathisonian/awesome-visualization-research">Awesome visualization research</a></h5>
-		<p>I'm a maintainer of a resource on data visualizaton research and user studies</p>
-		<h5><a href="https://www.cnn.com/interactive/2017/08/politics/trump-admin-departures-trnd/">Who has left the Trump administration?</a></h5>
-		<p>Trump administration departures tracker</p>
-		<h5><a href="http://www.nbcnews.com/specials/democrats-left-in-the-lurch">Left in the Lurch</a></h5>
-		<p>Analyzed data, reported, wrote and created visualizations for an NBC News project about the future of the Democratic party. I modeled demographics to guide the article's editorial direction, arranged interviews and worked closely with NBC's design and product teams.</p>
-		<h5><a href="http://www.nbcnews.com/specials/election-voting-ballot">Life of a Ballot</a></h5>
-		<p>An NBC News mobile experiment. I contributed to the concepting, development and design and I reported out and wrote the story with a colleague.</p>
-		<h5><a href="https://github.com/d3">Improving D3-color and adding new D3 color modules</a></h5>
-		<p>I've been added as a contributor to D3.js to build color modules for D3 based on newer perceptually-uniform color spaces not yet available in D3's color library. A beta of the first module, <a href="https://github.com/petulla/d3-hsluv">d3-hsluv</a>, is on Github. I'm working on a second module, CIECAM16, with <a href="https://github.com/connorgr">Connor Gramazio.</a></p>
-		<h5><a href="http://www.msnbc.com/interactives/geography-of-poverty/index.html">Geography of Poverty</a></h5>
-		<p>One of the first ambitious projects I worked on. It had a bit of everything: GDAL, scrolly charts, a one-off bundling and build system for the code, satellite imagery processing, original reported datasets.</p>
-
-
-
-	</section>
-
-	<section>
-		<h2>CNN graphic articles</h2>
-		<p>I write and visualize short and long pieces for CNN.com</p>
-		<h5><a href="https://www.cnn.com/2018/02/21/politics/see-what-your-members-of-congress-have-done-about-gun-control/index.html">See what your congress members have done about gun control</a></h5>
-		<p>Location-based look-up to output a gun control report card</p>
-		<h5><a href="http://www.cnn.com/2017/10/27/politics/trump-says-well-see-were-looking-into/index.html">The Art of the Trumpian Non-Answer</a></h5>
-		<p>Quantifying the Trump answer-dodge</p>
-		<h5><a href="http://www.cnn.com/2017/12/13/politics/calculate-americans-taxes-senate-reform-bill/index.html">How the tax bill affects your paycheck</a></h5>
-		<p>Note: I pitched the story and ran the model but did not design the calculator. Collaborated with AEI to build this tax calculator, writing a lot of R to parse output from open-source tax modeling software.</p>
-		<h5><a href="http://www.cnn.com/2017/11/10/politics/house-retirement-tracker/index.html">A wave of Republicans is leaving congress</a></h5>
-		<p>Retirement tracker</p>
-		<h5><a href="http://www.cnn.com/2017/11/18/politics/puerto-rico-political-disaster-crisis-demographics-migration/index.html">The Puerto Rican migration could shape Florida politics for years to come</a></h5>
-		<p>Reporting on and measuring the migration out of Puerto Rico</p>
-		<h5><a href="https://www.cnn.com/2018/01/30/politics/trump-state-of-the-union-in-history-100-years/index.html">How Trump's State of the Union compares with 100 years of past speeches</a></h5>
-		<p>A look at the language of the SOTU</p>
-		<h5><a href="https://www.cnn.com/2018/02/06/politics/stock-market-comparison-presidents-update/index.html">How Trump's stock market compares to past Presidents</a></h5>
-		<p>A quick visual of 100 years of stock market data</p>
-
-
-	</section>
-
-
-	<section>
-		<h2>Interactive essays</h2>
-		<h5><a href="http://www.nbcnews.com/specials/democrats-left-in-the-lurch">Left in the Lurch</a></h5>
-		<p>Analyzed data, reported, wrote and created visualizations for an NBC News project about the future of the Democratic party. I modeled demographics to guide the article's editorial direction, arranged interviews and worked closely with NBC's design and product teams.</p>
-		<h5><a href="http://www.nbcnews.com/specials/donald-trump-republican-party">United States of Trump</a></h5>
-		<p>Similar to Left in the Lurch, I led data analysis and designed visualizations for this feature NBC News project about the 2016 Republican primaries. The project won New York Press Club Award and Shorty awards.</p>
-		<h5><a href="http://www.nbcnews.com/specials/election-voting-ballot">Life of a Ballot</a></h5>
-		<p>An NBC News mobile experiment. I contributed to the concepting, development and design and I reported out and wrote the story with a colleague.</p>
-		<h5><a href="http://storysmith-trump-coalition.herokuapp.com/specials/trump-coalition">Trump Coalition</a></h5>
-		<p>Precinct-level analysis of Trump's base, close-up in three counties.</p>
-		<h5><a href="http://www.msnbc.com/interactives/geography-of-poverty/index.html">Geography of Poverty</a></h5>
-		<p>I oversaw data analysis, visualizations and code for the first five parts of this series. The project has many visual elements and interactives. My favorite chapters are the South and the introduction.</p>
-		<h5><a href="http://www.msnbc.com/shuttered">Shuttered</a></h5>
-		<p>I led development and visualization on this MSNBC feature, created with Irin Carmon.</p>
-
-	</section>
-
-
-
-	<section>
-		<h2>Recent projects</h2>
-		<p> On the side, I'm interested in adding dplyr-like functionality to D3 (and Observable). I'm also trying to improve my data modeling skills and to contribute to the <a href="http://mc-stan.org/">Stan project</a>. But these are some things further developed.</p>
-		<h5><a href="https://github.com/d3">Improving D3-color and adding new D3 color modules</a></h5>
-		<p>I've been added as a contributor to D3.js to build color modules for D3 based on newer perceptually-uniform color spaces not yet available in D3's color library. A beta of the first module, <a href="https://github.com/petulla/d3-hsluv">d3-hsluv</a>, is on Github. I'm working on a second module, CIECAM16, with <a href="https://github.com/connorgr">Connor Gramazio.</a></p>
-		
-		<h5><a href="https://github.com/petulla/readroper">ASCII dataset R package</a></h5>
-		<p>An R package that simplifies reading ASCII fixed-width polling datasets from the 1980s and 90s. I made this so Harry Enten can use datasets from the Roper Center in CNN stories.</p>
-		<h5><a href="https://github.com/Quartz/Chartbuilder/tree/mapbuilder">Maps + Chartbuilder</a></h5>
-		<p>I added a way to render US, world, county and district choropleth and cartogram maps with Quartz's Chartbuilder, working in partnership with Quartz on the project. I wrote a lot of React and ES2015 Javascript.</p>
-		<h5><a href="https://www.yahoo.com/tv/fox-news-cnn-msnbc-megyn-kelly-steve-kornacki-035013993.html">D3.js on TV (election night)</a></h5>
-		<p>NBC News and MNSBC used D3.js to render maps on election night. I created an initial prototype that created the impetus to further pursue the project. I then managed a contractor who helped us build the visualizations that ran on election night. <a href="https://twitter.com/spetulla/status/796167494092419072">A few screengrabs here.</a></p>
-		<h5><a href="http://www.nbcnews.com/politics/2016-election/president">NBC News Election Results</a></h5>
-		<p>I oversaw the design and development of visualizations for the NBC News's election results pages. We presented national Presidential, House, Senate and governors races. We build a Node.js server-side implementation of D3 and Slackbots to optimize the process.</p>
-		
-	</section>
-
-	<section>
-		<h2>NBC News graphic articles</h2>
-		<p>Unfortunately, NBC News is redesigning and graphic embeds are not carried over. So this is a selection.</p>
-		<h5><a href="https://www.google.com/search?q=sam+petulla+site%3Anbcnews.com">All NBC News articles</a></h5>
-		<p>An easy way to find my latest articles is to search Google, with the domain restricted and my name as the query. </p>
-		<h5><a href="http://www.nbcnews.com/politics/donald-trump/how-much-time-trump-spending-trump-properties-n753366">Tracking President Trump’s Visits to Trump Properties</a></h5>
-		<p>Slack-integrated Google Drive project to track Trump's visits, with graphics output for our social team.</p>
-		<h5><a href="http://www.nbcnews.com/news/world/vehicles-are-becoming-weapons-choice-terrorists-n768846">Vehicles are Becoming the Weapons of Choice for Terrorists</a></h5>
-		<p>Original analysis of terrorist attack trends.</p>
-		<h5><a href="http://www.nbcnews.com/news/us-news/see-what-your-state-doing-close-wage-gap-n741351">See What Your State Is Doing to Close the Gender Wage Gap</a></h5>
-		<p>Interactive visualization of the gender wage gap.</p>
-	</section>
-
-	<section>
-		<h2>Remainders</h2>
-		<h5>Media strategy writing</h5>
-		<p>I've written about the media for <a href="http://www.niemanlab.org/author/spetulla/">Nieman Lab</a>, <a href="http://archives.cjr.org/author/sam-petulla/">CJR</a>, Google and <a href="https://contently.com/strategist/2014/10/16/gigaoms-sponsored-content-the-good-the-bad-and-the-ugly/">The Content Strategist</a>, a publication I helped create with my former colleagues at Contently.</p>
-		<h5>Reporting abroad</h5>
-		<p>In separate trips, I reported abroad. In one trip, from <a href="https://qz.com/62502/burmese-startups-have-both-foreign-competitors-and-local-cronies-to-contend-with/">Myanmar</a> and <a href="http://techpresident.com/news/wegov/23538/south-korean-digital-activists-work-google-toward-digital-freedom">South Korea</a>. In the other, I reported from Israel, Jordan and Turkey. My Asia trip focused on politics and technology. My trip to the Middle East looked at religion and politics.</p>
-		<h5>Talks</h5>
-		<p>I've given talks at Visualized and the NYC D3.js meetup. I previously taught at General Assembly.</p>
-		<h5>Alberto Cairo</h5>
-		<p>Wrote <a href="http://www.thefunctionalart.com/2016/08/inspiring-graphs-and-charts-by-msnbc.html">a nice post about me once..</a></p>
-		<h5>Social media</h5>
-		<p>I'm on <a href="http://www.twitter.com/spetulla">Twitter</a>, <a href="https://github.com/petulla">Github</a> and <a href="https://www.facebook.com/sam.petulla">Facebook.</a></p>
-	</section>
-</main>
-
-
-
+			<section id="Etc">
+				<h2>Etc</h2>
+					<h3 class="graphics-title">
+						<a href="https://github.com/orgs/d3/people">Improving D3-color&#x27;s modules and methods</a>
+					</h3>
+					<figure class="etc-img">
+							<a href="https://github.com/orgs/d3/people"><img src="img/d3color.png" /></a>
+					</figure>
+					<h3 class="graphics-title">
+						<a href="https://github.com/petulla/d3-hsluv">New color spaces with D3-hsluv and D3-ciecam02</a>
+					</h3>
+					<figure class="etc-img">
+							<a href="https://github.com/petulla/d3-hsluv"><img src="img/ciecam.png" /></a>
+					</figure>
+					<h3 class="graphics-title">
+						<a href="https://github.com/petulla/readroper">Readroper ASCII polling dataset package</a>
+					</h3>
+					<figure class="etc-img">
+							<a href="https://github.com/petulla/readroper"><img src="img/roper.png" /></a>
+					</figure>
+					<h3 class="graphics-title">
+						<a href="https://github.com/Quartz/Chartbuilder/tree/mapbuilder">Chartbuilder (adds choropleth, bubble and cartogram maps support)</a>
+					</h3>
+					<figure class="etc-img">
+							<a href="https://github.com/Quartz/Chartbuilder/tree/mapbuilder"><img src="img/chartbuilder.png" /></a>
+					</figure>
+					<h3 class="graphics-title">
+						<a href="https://github.com/mathisonian/awesome-visualization-research">Awesome visualization research</a>
+					</h3>
+					<figure class="etc-img">
+							<a href="https://github.com/mathisonian/awesome-visualization-research"><img src="img/awesome.png" /></a>
+					</figure>
+					<h3 class="graphics-title">
+						<a href="https://www.vulture.com/2018/11/steve-kornacki-msnbc-appreciation.html">NBC News election app (first Node/D3.js prototype)</a>
+					</h3>
+					<figure class="etc-img">
+							<a href="https://www.vulture.com/2018/11/steve-kornacki-msnbc-appreciation.html"><img src="img/nbcnews.png" /></a>
+					</figure>
+			</section>
+		</main>
+	</body>
+</html>
