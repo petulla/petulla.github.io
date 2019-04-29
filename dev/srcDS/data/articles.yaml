@@ -1,10 +1,19 @@
 articles:
  nieman:
-  title: Burmese startups have both foreign competitors and local cronies to tend with
-  url: https://qz.com/62502/burmese-startups-have-both-foreign-competitors-and-local-cronies-to-contend-with/
- contently:
-  title: Myanmar hosts one of the world’s biggest tech conferences, but just trying getting an app there
-  url: https://qz.com/45086/myanmar-hosts-one-of-the-worlds-biggest-tech-conferences-but-just-trying-getting-an-app-there/
- etc:
-  title: Creating online banking in Myanmar, a country with little of either
-  url: https://qz.com/48250/creating-online-banking-in-myanmar-a-country-with-little-of-either/
+  title: The measured rise of sentiment analysis in journalism
+  url: https://www.niemanlab.org/2013/01/feelings-nothing-more-than-feelings-the-measured-rise-of-sentiment-analysis-in-journalism/
+ contently1:
+  title: This data scientist spent a year inside the New York Times
+  url: https://contently.com/2013/12/05/this-data-scientist-spent-a-year-deep-inside-the-new-york-times-heres-what-he-discovered/
+ contently2:
+  title: The Financial Times on why they embraced a new ad currency, time spent
+  url: https://contently.com/2014/06/16/the-financial-times-on-why-they-ditched-cpms-for-a-new-ad-currency-time-spent/
+ contently3:
+  title: 10 charts that are changing the way we measure content
+  url: https://contently.com/2014/04/04/10-charts-that-are-changing-the-way-we-measure-content/
+ contently4:
+  title: 10 more charts that are changing content marketing
+  url: https://contently.com/2014/11/11/10-more-charts-that-are-changing-content-marketing/
+ contently5:
+  title: Fred Wilson says tomorrow’s CMOs will be content marketers
+  url: https://contently.com/2014/05/22/fred-wilson-tomorrows-cmos-will-be-content-marketers/
