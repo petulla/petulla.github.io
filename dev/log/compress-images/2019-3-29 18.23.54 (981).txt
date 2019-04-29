@@ -1,0 +1,7 @@
+File from: [__helpers/dsdata/*.png]
+
+File to: [-]
+
+Compression algorithm: [-]
+
+Description:  Directory don't not have files!: 

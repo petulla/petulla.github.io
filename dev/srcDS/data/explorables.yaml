@@ -1,0 +1,21 @@
+explorables:
+ power:
+  title: Statistical power
+  url: https://observablehq.com/@petulla/statistical-power-explorable
+ recursive:
+  title: Recursive programming and the Koch snowflake
+  url: https://observablehq.com/@petulla/the-koch-snowflake-to-the-dragon-curve-and-back
+ linalg:
+  title: Linear Algebra interactive cheatsheet
+  url: https://observablehq.com/@petulla/explorable-linear-algebra-cheatsheet
+ clt:
+  title: Central limit theorem coverage
+  url: https://observablehq.com/@petulla/central-limit-theorem-coverage
+ gamma:
+  title: Gamma function
+  url: https://observablehq.com/@petulla/animated-drawing-with-a-generator
+ softmax:
+  title: Softmax function
+  url: https://observablehq.com/@petulla/brief-explorable-of-the-softmax-function
+
+

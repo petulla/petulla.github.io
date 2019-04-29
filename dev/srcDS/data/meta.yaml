@@ -1,0 +1,13 @@
+title: sampetulla.com data science portfolio
+introtext: Data science-specific portfolio projects in addition to the work on the front page.
+nav:
+ item: Analysis
+ item1: Explorables
+ item2: Articles
+sections:
+ analyses:
+  title: Data analysis case studies
+ explorables:
+  title: Explorable explanations
+ articles:
+  title: Articles

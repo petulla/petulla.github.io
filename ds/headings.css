@@ -1,0 +1,74 @@
+	:root {
+	  --dark-gray: #262626;
+	  --medium-gray: #666666;
+	}
+
+header > .job-title > h2 {
+	font-size: 0.8em;
+	font-weight: 400;
+	color: var(--medium-gray);
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Noto serif';
+	position: absolute;
+	bottom: 0;
+	  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+header > .sampetulla > h1 {
+	font-size: 0.8em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 800;
+	color: var(--dark-gray);
+	font-family: 'Noto serif';
+	position: absolute;
+	bottom: 0;
+	  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+section > h2 {
+	margin-top: 3.4em;
+	font-size: 1.8em;
+	font-weight: 300;
+	margin-bottom: 1em;
+	color: var(--medium-gray);
+	font-family: 'Noto serif';
+}
+
+section > h3.graphics-title {
+	font-family: 'Noto Sans';
+	font-weight: 800;
+	font-size: 1em;
+	margin-top: 3em;
+	color: var(--medium-gray);
+}
+
+#Graphics > h2 {
+	margin-top: 1.2em;
+}
+
+
+@media screen and (min-width: 650px) {
+	header > .sampetulla > h1 {
+		font-size: 1.2em;
+	}
+	header > .job-title > h2 {
+		font-size: 1.2em;
+	}
+	section > h2 {
+		font-size: 2.5em;
+		margin-bottom: 1.35em;
+		margin-top: 2.5em;
+	}
+	section > h3.graphics-title {
+		margin-top: 4em;
+	}
+}
+
