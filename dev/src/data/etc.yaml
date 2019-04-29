@@ -1,0 +1,19 @@
+etc:
+ d3color:
+  title: Improving D3-color's modules and methods
+  url: https://github.com/orgs/d3/people
+ ciecam:
+  title: New color spaces with D3-hsluv and D3-ciecam02
+  url: https://github.com/petulla/d3-hsluv
+ roper:
+  title: Readroper ASCII polling dataset R package (on CRAN)
+  url: https://github.com/petulla/readroper
+ chartbuilder:
+  title: Chartbuilder (adds choropleth, bubble and cartogram maps support)
+  url: https://github.com/Quartz/Chartbuilder/tree/mapbuilder
+ awesome:
+  title: Awesome visualization research
+  url: https://github.com/mathisonian/awesome-visualization-research
+ nbcnews:
+  title: NBC News election app (first Node/D3.js prototype)
+  url: https://www.vulture.com/2018/11/steve-kornacki-msnbc-appreciation.html

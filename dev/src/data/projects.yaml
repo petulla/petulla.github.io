@@ -1,0 +1,45 @@
+graphics:
+ cnnforecast:
+  text: CNN 2018 Forecast
+  summary: Oversaw the project pitch, freelancer hiring, model building and design and development.
+  url: https://www.cnn.com/election/2018/forecast/house
+ specialelections:
+  text: The One Data Point That Predicts the Midterms
+  summary: summary
+  url: https://www.cnn.com/interactive/2018/politics/special-elections/
+ retirements:
+  text: CNN Retirements Tracker
+  summary: summary
+  url: https://www.cnn.com/2017/11/10/politics/house-retirement-tracker/index.html
+ gunlookup:
+  text: See What Your Members of Congress Have Done About Gun Control
+  summary: summary
+  url: https://www.cnn.com/2018/02/21/politics/see-what-your-members-of-congress-have-done-about-gun-control/index.html
+ nonanswer:
+  text: The Art of the Trumpian Non-Answer
+  summary: summary
+  url: https://www.cnn.com/2017/10/27/politics/trump-says-well-see-were-looking-into/index.html
+ loab:
+  text: Life of a Ballot
+  summary: summary
+  url: https://www.nbcnews.com/specials/election-voting-ballot
+ shuttered:
+  text: Shuttered
+  summary: summary
+  url: http://www.msnbc.com/shuttered
+ geopovertyintro:
+  text: Geography of Poverty (Introduction)
+  summary: summary
+  url: http://www.msnbc.com/interactives/geography-of-poverty/index.html
+ geopovertyse:
+  text: Geography of Poverty (South)
+  summary: summary
+  url: http://www.msnbc.com/interactives/geography-of-poverty/se.html
+ leftlurch:
+  text: Left in the Lurch
+  summary: summary
+  url: https://www.nbcnews.com/specials/democrats-left-in-the-lurch
+ ustrump:
+  text: United States of Trump
+  summary: summary
+  url: https://www.nbcnews.com/specials/donald-trump-republican-party
