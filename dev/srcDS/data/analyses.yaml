@@ -5,12 +5,9 @@ analyses:
  nonparametric:
   title: NYTimes chart goof (or, how to fit univariate non-parametric models)
   url: ./analyses/nonparametric.html
- multinomiallogit:
-  title: Are Russian agents more susceptible to vodka or truth serums? Bayesian multinomial logit choice and poisson process
-  url: ./analyses/multinomiallogit.html
  timeseries:
   title: How many opioid deaths will there be in the US this year? Univariate time-series with the Forecast package
   url: ./analyses/timeseries.html
- stepwise:
-  title: Do manual transissions lead to higher gas mileage? Stepwise regression and VIF
-  url: ./analyses/stepwise.html
+ multinomiallogit:
+  title: Are Russian agents more susceptible to vodka or truth serums? Bayesian hierarchical multinomial choice and pooled poisson process
+  url: ./analyses/multinomiallogit.html
