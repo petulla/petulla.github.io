@@ -8,4 +8,6 @@
 - add 1200x200px png images to `__helpers/data`. Ensure the file name matches the project slug. Run the build task.
 
 # How to merge
+- Commit changes on dev at root
+- Switch to master branch
 - [Follow](https://stackoverflow.com/a/16455853/2573069) to ignore the `dev` folder at root.
