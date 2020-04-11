@@ -42,16 +42,16 @@ section > h2 {
 	font-family: 'Noto serif';
 }
 
-section > h3.graphics-title {
+section > h3 {
 	font-family: 'Noto Sans';
-	font-weight: 800;
-	font-size: 1em;
+	font-weight: 500;
+	font-size: 1.2em;
 	margin-top: 3em;
 	color: var(--medium-gray);
 }
 
-#Graphics > h2 {
-	margin-top: 1.2em;
+#DS > h2 {
+	margin-top: 1.8em;
 }
 
 

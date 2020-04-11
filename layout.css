@@ -93,3 +93,11 @@
 		border: 2px solid #eee;
 		width: 100%;
 	}
+	section > div.ds-grid {
+		display: grid;
+		grid-template-columns: calc(50% - 1.8em) calc(50% - 1.8em);
+		grid-gap: 3.6em;
+		background-color: #fff;
+		color: #444;
+		width: 100%;	
+	}

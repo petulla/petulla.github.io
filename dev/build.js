@@ -24,7 +24,7 @@ metalsmith(__dirname)
     meta: 'data/meta.yaml',
     projects: 'data/projects.yaml',
     etc: 'data/etc.yaml',
-    articles: 'data/articles.yaml'
+    ds: 'data/ds.yaml'
   }))
   .use(layouts({
     directory: './layouts', default: 'index.hbs'

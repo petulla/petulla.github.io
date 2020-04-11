@@ -1,0 +1,9 @@
+File from: [__helpers/data/nonanswer.png]
+
+File to: [__helpers/build/nonanswer.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /home/petulla/Workspace/Github/petulla.github.io/dev/node_modules/pngquant-bin/vendor/pngquant --quality=80-100 -o __helpers/build/nonanswer.png __helpers/data/nonanswer.png
+  error: Not a PNG file (libpng failed)
+  error: cannot decode image nonanswer.png

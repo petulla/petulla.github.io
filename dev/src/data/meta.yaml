@@ -1,13 +1,13 @@
 title: sampetulla.com
-introtext: 👋 I am a data scientist CNN. In my past life, I was an editor at CNN Politics and NBC News. I've given <a href="https://github.com/petulla/stroke-dasharray-interpolation-talk">talks on D3.js</a>, and <a href="https://schedule.srccon.org/#_session-stats-newsroom">regression</a> and <a href="https://web.archive.org/web/20150816124525/http://visualized.com/politicaldata">statistics</a> in the newsroom. I try to keep a running series of experiments on <a href="https://beta.observablehq.com/@petulla">Observable</a>.
+introtext: 👋 I am a data scientist for WarnerMedia at CNN. In my past life, I was an editor at CNN Politics and NBC News. </p><p>I've spoken <a href="https://github.com/petulla/stroke-dasharray-interpolation-talk">about D3.js</a>, and <a href="https://schedule.srccon.org/#_session-stats-newsroom">regression</a> and <a href="https://web.archive.org/web/20150816124525/http://visualized.com/politicaldata">statistics</a> in the newsroom. 
 nav:
- item: Graphics
- item1: Writing
- item2: Etc
+ item: DS 
+ item1: Open-source
+ item2: Graphics
 sections:
+ ds:
+  title: Data science explorables 
  graphics:
   title: Graphics stories
- articles:
-  title: Articles
  etc:
-  title: Etc
+  title: Open-source 

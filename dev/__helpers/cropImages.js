@@ -16,7 +16,7 @@ rimraf(output + '*', () => {
 	  {svg: {engine: 'svgo', command: '--multipass'}},
 	  {gif: {engine: 'gifsicle', command: ['--colors', '64', '--use-col=web']}}, (err) => {
 	    if (err) {
-	      return console.err('building ' + err);
+	      return console.log('building ' + err);
 	    }
 	 		console.log('success building');
 	    ncp(source, destination, (errcopy) => {

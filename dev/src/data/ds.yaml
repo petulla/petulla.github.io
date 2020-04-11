@@ -1,0 +1,19 @@
+ds:
+ power:
+  title: Power 
+  url: https://observablehq.com/@petulla/statistical-power-explorable
+ recursion:
+  title: Recursion 
+  url: https://observablehq.com/@petulla/the-koch-snowflake-to-the-dragon-curve-and-back 
+ coverage:
+  title: Coverage 
+  url: https://observablehq.com/@petulla/central-limit-theorem-coverage 
+ linear:
+  title: Linear Algebra Cheatsheet 
+  url: https://observablehq.com/@petulla/explorable-linear-algebra-cheatsheet 
+ pooling:
+  title: Bayesian pooling 
+  url: https://sampetulla.com/ds/analyses/multinomiallogit.html
+ xgboost:
+  title: XGBoost vs RF 
+  url: https://sampetulla.com/ds/analyses/rfxgboost.html 

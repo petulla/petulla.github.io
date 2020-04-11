@@ -15,8 +15,8 @@ nav > div {
 p {
 	color: var(--medium-gray);
 	font-family: "Noto Serif", serif;
-	font-size: 0.9em;
-	line-height: 1.7em;
+	font-size: 1em;
+	line-height: 1.8em;
 	margin-bottom: 1.75em;
 	margin-top: 0.25em;
 	font-weight: 300;

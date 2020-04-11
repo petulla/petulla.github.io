@@ -35,51 +35,51 @@
 				<h1>Sam Petulla</h1>
 			</div>
 			<div class="job-title">
-				<h2>Editor, CNN Politics</h2>
+				<h2>Data scientist</h2>
 			</div>
-			<nav>
-				{{#each meta.nav }}
-					<div><a href="#{{this}}">{{this}}</a></div>
-				{{/each}}
-			</nav>
 		</header>
 		<main>
 			<article>
 				<p>{{{meta.introtext}}}</p>
 			</article>
 			<section id="{{meta.nav.item}}">
+				<h2>{{meta.sections.ds.title}}</h2>
+				<div class="ds-grid">
+				{{#each ds.ds }}
+					<div class="ds-block">
+						<h3 class="ds-title">
+							<a href="{{url}}">{{title}}</a>
+						</h3>
+						<figure class="ds-img">
+							<a href="{{url}}"><img src="img/{{@key}}.png" /></a>
+						</figure>
+					</div>
+				{{/each}}
+				</div>
+			</section>
+			<section id="{{meta.nav.item1}}">
+				<h2>{{meta.sections.etc.title}}</h2>
+				{{#each etc.etc }}
+					<h3 class="etc-title">
+						<a href="{{url}}">{{title}}</a>
+					</h3>
+					<figure class="etc-img">
+						<a href="{{url}}"><img src="img/{{@key}}.png" /></a>
+					</figure>
+				{{/each}}
+			</section>
+			<section id="{{meta.nav.item2}}">
 				<h2>{{meta.sections.graphics.title}}</h2>
 				{{#each projects.graphics }}
 					<h3 class="graphics-title">
 						<a href="{{url}}">{{text}}</a>
 					</h3>
 					<figure class="graphics-img">
-							<a href="{{url}}"><img src="img/{{@key}}.png" /></a>
-					</figure>
-					<!--<summary>{{summary}}</summary>-->
-				{{/each}}
-			</section>
-
-			<section id="{{meta.nav.item1}}">
-				<h2>{{meta.sections.articles.title}}</h2>
-				{{#each articles.articles }}
-					<summary class="title-and-link">
-						<a href="{{url}}">{{title}}</a>
-					</summary>
-				{{/each}}
-			</section>
-
-			<section id="{{meta.nav.item2}}">
-				<h2>{{meta.sections.etc.title}}</h2>
-				{{#each etc.etc }}
-					<h3 class="graphics-title">
-						<a href="{{url}}">{{title}}</a>
-					</h3>
-					<figure class="etc-img">
-							<a href="{{url}}"><img src="img/{{@key}}.png" /></a>
+						<a href="{{url}}"><img src="img/{{@key}}.png" /></a>
 					</figure>
 				{{/each}}
 			</section>
+
 		</main>
 	</body>
 </html>
