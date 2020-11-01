@@ -1,4 +1,7 @@
 ds:
+ l1l2:
+  title: L1/L2 norms 
+  url: https://observablehq.com/@petulla/l1-l2l_1-l_2l1-l2-norm-geometric-interpretation 
  power:
   title: Power 
   url: https://observablehq.com/@petulla/statistical-power-explorable
