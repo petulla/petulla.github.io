@@ -10,4 +10,4 @@
 # How to merge
 - Commit changes on dev at root
 - Switch to master branch
-- [Follow](https://stackoverflow.com/a/16455853/2573069) to ignore the `dev` folder at root.
+- Run `bash merge.sh "Commit message"
